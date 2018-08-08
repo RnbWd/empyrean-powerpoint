@@ -1,0 +1,8 @@
+.sidebar {
+  width: 300px;
+  margin-left: -300px;
+  transition: margin-left 0.6s;
+  margin-top: -3px;
+  background-color: #b009f7;
+  /* transition-timing-function: ease-in-out; */
+}

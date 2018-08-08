@@ -1,0 +1,30 @@
+.markdown-input {
+  /* height: 500px; */
+  display: flex;
+  flex-grow: 1;
+  background-color: lightblue;
+  font-family: 'Roboto', sans-serif;
+  color: #495057;
+  padding-top: 3px;
+  padding-left: 8px;
+  height: 100%;
+  border: none;
+  overflow: auto;
+  outline: none;
+  resize: none;
+}
+
+.slide {
+  display: flex;
+  flex-grow: 0.9;
+  border: 5px solid #000;
+  margin-bottom: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+textarea {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}

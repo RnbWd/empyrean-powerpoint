@@ -1,0 +1,8 @@
+.slide {
+	display: flex;
+	flex-grow: 0.9;
+	border: 5px solid #000;
+	margin-bottom: 5px;
+	justify-content: center;
+	align-items: center;
+}
