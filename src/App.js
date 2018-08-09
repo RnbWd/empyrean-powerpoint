@@ -15,8 +15,8 @@ class App extends Component {
         <div className="main">
           <Navbar />
           <Sidebar />
-          <TextInput />
-          <Slide />
+          <TextInput num="one" />
+          <Slide num="one" />
         </div>
       </Provider>
     );

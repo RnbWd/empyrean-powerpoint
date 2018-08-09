@@ -1,4 +1,8 @@
 .header {
-	background-color: #b009f7;
-	color: #fff;
+  background-color: #b009f7;
+  color: #fff;
+}
+
+.menu-button:focus {
+  outline: 0;
 }

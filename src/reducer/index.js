@@ -1,9 +1,10 @@
 // @flow
 
-import { DISPLAY_SIDEBAR } from '../actions';
+import { DISPLAY_SIDEBAR, UPDATE_SLIDE } from '../actions';
 
 export const initialState = {
   displaySidebar: false,
+  slides: {},
 };
 
 export const reducer = (state = initialState, action) => {
@@ -12,6 +13,14 @@ export const reducer = (state = initialState, action) => {
       return {
         ...state,
         displaySidebar: !state.displaySidebar,
+      };
+    case UPDATE_SLIDE:
+      return {
+        ...state,
+        slides: {
+          ...state.slides,
+          [action.num]: action.text,
+        },
       };
     default:
       return state;

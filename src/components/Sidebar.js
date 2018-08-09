@@ -8,7 +8,7 @@ class Sidebar extends Component {
     return (
       <ul
         className="list-group sidebar"
-        style={{ marginLeft: displaySidebar ? 0 : -300 }}
+        style={{ marginLeft: displaySidebar ? 0 : -256 }}
       >
         <li className="list-group-item list-group-item-action">
           Presentation Mode
